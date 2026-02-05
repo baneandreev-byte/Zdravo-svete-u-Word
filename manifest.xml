@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
+
+  <Id>f7b8a8a0-1234-4c11-9c99-123456789111</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>BiroA</ProviderName>
+  <DefaultLocale>sr-RS</DefaultLocale>
+
+  <DisplayName DefaultValue="Zdravo Svete"/>
+  <Description DefaultValue="Minimalni Word add-in."/>
+
+  <IconUrl DefaultValue="https://baneandreev-byte.github.io/Zdravo-svete-u-Word/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://baneandreev-byte.github.io/Zdravo-svete-u-Word/icon-80.png"/>
+
+  <SupportUrl DefaultValue="https://github.com/baneandreev-byte/Zdravo-svete-u-Word"/>
+
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://baneandreev-byte.github.io/Zdravo-svete-u-Word/taskpane.html"/>
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
+
